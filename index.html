@@ -4,11 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Synth</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <button id="play">Play</button>
-    <p id="playing" style="display: none">Playing</p>
+    <div class="control">
+        <button id="play">Play</button>
+        <button id="stop" style="display: none;">Stop</button>
+        <p id="playing" style="display: none">Playing</p>
+    </div>
+    <script src="http://unpkg.com/tone"></script>
     <script src="script.js"></script>
 </body>
 
